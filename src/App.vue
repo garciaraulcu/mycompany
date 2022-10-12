@@ -1,9 +1,6 @@
 <template>
    <nav-bar/>
    <br>
-   <br>
-   <br>
-   <br>
    <t-body/>
    <br>
    <br>

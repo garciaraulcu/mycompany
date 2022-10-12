@@ -1,9 +1,6 @@
 <template>
   <div class="container" id="about" style="display: none">
-    <br />
-    <br />
-    <br />
-    <h3>Tecnologias Unidas (T-United)</h3>
+    <h3>TIC's UNITED &#60;/T-United&#62;</h3>
     <p>
       <center>
         <img src="../assets/t-united.png" alt="imgVue" style="width: 40%" />
@@ -35,12 +32,9 @@
     </p>
   </div>
   <div id="home" class="container">
-    <br />
-    <br />
     <center>
-      <img src="../assets/t-united.png" alt="imgVue" style="width: 40%" />
       <br />
-      <br />
+      <h1>TIC's UNITED</h1>
       <h3><i>Soluciones en Desarollo Web.</i></h3>
     </center>
 

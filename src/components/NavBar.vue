@@ -1,8 +1,8 @@
 <template>
   <div class="topnav" id="myTopnav">
-    <a href="#home" class="active" v-on:click="home()">Home</a>
-    <a href="#about" v-on:click="about()">About</a>
-    <a href="#customers">Nuestros Clientes</a>
+    <a href="#home" class="active" v-on:click="home()">&#60;/T-United&#62;</a>
+    <a href="#about" v-on:click="about();myFunctionTab()">About</a>
+    <a href="#customers" v-on:click="myFunctionTab()">Nuestros Clientes</a>
 
     <a
       href="javascript:void(0);"
@@ -47,7 +47,6 @@ export default {
 .topnav {
   overflow: hidden;
   background-color: black;
-  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -68,7 +67,7 @@ export default {
 }
 
 .topnav a.active {
-  background-color: blue;
+  background-color: darkblue;
   color: white;
 }
 

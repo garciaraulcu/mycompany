@@ -1,40 +1,52 @@
 <template>
-<div class="container">
-  <br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+  <div class="container">
+     
+    <br />
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="../assets/web.jpeg" alt="Chania" width="460" height="345">
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="../assets/img1.png"
+            alt="Los Angeles"
+            width="1100"
+            height="500"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../assets/img2.png"
+            alt="Chicago"
+            width="1100"
+            height="500"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../assets/img3.png"
+            alt="New York"
+            width="1100"
+            height="500"
+          />
+        </div>
       </div>
 
-      <div class="item">
-        <img src="../assets/apps.jpeg" alt="Chania" width="460" height="345">
-      </div>
-
-
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="tryit.asp-filename=trybs_carousel&stacked=h.html#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="tryit.asp-filename=trybs_carousel&stacked=h.html#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-</div>
-
 </template>
 
 <script>
@@ -42,9 +54,9 @@ export default {};
 </script>
 
 <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
 </style>
