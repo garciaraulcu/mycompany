@@ -1,11 +1,7 @@
 <template>
   <div class="container" id="about" style="display: none">
-    <h3>TIC's UNITED &#60;/T-United&#62;</h3>
-    <p>
-      <center>
-        <img src="../assets/t-united.png" alt="imgVue" style="width: 40%" />
-      </center>
-    </p>
+    <h3>&#60;/T-Developers&#62;</h3>
+    
     <p>
       Somos una organizacion de Diseño y Desarrollo Web, Investigacion y
       Desarrollo de Software para Tecnologias de la Informacion.
@@ -26,7 +22,7 @@
       hagan realidad y cumplir tus objetivos.
     </p>
     <p>
-      T-United.
+      T-Developers.
       <br />
       10 de Octubre 2022.
     </p>
@@ -34,7 +30,7 @@
   <div id="home" class="container">
     <center>
       <br />
-      <h1>TIC's UNITED</h1>
+      <h1>&#60;/T-Developers&#62;</h1>
       <h3><i>Soluciones en Desarollo Web.</i></h3>
     </center>
 
