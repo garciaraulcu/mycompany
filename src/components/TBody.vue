@@ -40,18 +40,28 @@
   <br>
 
   <div class="container" id="customers" style="width: 100%">
-    <div class="tittle">
-    <h3 class="container">Own Customers</h3>
-    </div>
+    <!--<div class="tittle">
+         <h3 class="container">Own Customers</h3>
+        </div>
+    -->
     <br>
     <div class="row container">
-      <div class="col ">
+      <!-- 
+        <div class="col ">
         <a href="https://futfes.netlify.app/"  target="_blank"><img src="../assets/futfes.png" style="width: 30%" /></a>
         <h3 class="container"><b><i><a href="https://futfes.netlify.app/">FutFes</a></i></b></h3>
       </div>
+      -->
       <div class="w-100"></div>
 
     </div>
+  </div>
+  <hr>
+  <div class="container" id="contact">
+    <h3>Contacto</h3>
+    <ul>
+      <li> garciaraulcu@gmail.com</li>
+    </ul>
   </div>
 </template>
 

@@ -1,8 +1,9 @@
 <template>
   <div class="topnav" id="myTopnav">
     <a href="#home" class="active" v-on:click="home()">&#60;/T-Developers&#62;</a>
-    <a href="#about" v-on:click="about();myFunctionTab()">About</a>
-    <a href="#customers" v-on:click="myFunctionTab()">Nuestros Clientes</a>
+    <a href="#about" v-on:click="about();myFunctionTab()">Aerca de Nosotros</a>
+    <a href="#contact">Contacto</a>
+    <!--<a href="#customers" v-on:click="myFunctionTab()">Nuestros Clientes</a>-->
 
     <a
       href="javascript:void(0);"
