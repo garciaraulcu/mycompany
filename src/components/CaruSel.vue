@@ -19,14 +19,7 @@
             height="500"
           />
         </div>
-        <div class="carousel-item">
-          <img
-            src="../assets/hotel-page.png"
-            alt="Chicago"
-            width="1100"
-            height="500"
-          />
-        </div>
+
         <div class="carousel-item">
           <img
             src="../assets/bus-page.png"
