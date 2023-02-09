@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container" style="padding: 70px 20px 50px 20px">
       
-      <p>Hecho en México. {{ getYear() }}</p>
+      <p>Hecho en México, {{ getYear() }}</p>
 
       <p style="color: white">Sitio Web Administrados por <i>T-Developers</i>.</p>
     </div>
