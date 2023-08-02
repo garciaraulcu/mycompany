@@ -1,6 +1,6 @@
 <template>
   <div class="topnav" id="myTopnav">
-    <a href="#home" class="active" v-on:click="home()">&#60;/T-Developers&#62;</a>
+    <a href="#home" class="active app-name" v-on:click="home()"><b>Red</b> Hack</a>
     <a href="#about" v-on:click="about();myFunctionTab()">Aerca de Nosotros</a>
     <a href="#contact">Contacto</a>
     <!--<a href="#customers" v-on:click="myFunctionTab()">Nuestros Clientes</a>-->
@@ -68,7 +68,7 @@ export default {
 }
 
 .topnav a.active {
-  background-color: darkblue;
+  background-color: #01182a;
   color: white;
 }
 
@@ -101,4 +101,9 @@ export default {
     text-align: left;
   }
 }
+
+.app-name > b{
+  color: red;
+}
+
 </style>

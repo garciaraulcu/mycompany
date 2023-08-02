@@ -4,7 +4,7 @@
       
       <p>Hecho en México, {{ getYear() }}</p>
 
-      <p style="color: white">Sitio Web Administrados por <i>T-Developers</i>.</p>
+      <p style="color: white">Sitio Web Administrados por Red Hack</p>
     </div>
   </footer>
 </template>
