@@ -1,6 +1,6 @@
 <template>
   <div class="container" id="about" style="display: none">
-    <h3>&#60;/T-Developers&#62;</h3>
+    <h3>&#60;/T-Devers&#62;</h3>
     
     <p>
       Somos una organizacion de Diseño y Desarrollo Web, Investigacion y
@@ -27,14 +27,13 @@
       10 de Octubre 2022.
     </p>
   </div>
-  <div id="home" class="container">
-    <center>
-      <br />
-      <h1>&#60;/T-Developers&#62;</h1>
-      <h3><i>Soluciones en Desarollo Web.</i></h3>
-    </center>
-
-    <caru-sel />
+  <div id="home" style="background-color:#01182a; color:#fff">
+      <div class="container p-5">
+        <h1>
+          <app-name/>
+        </h1>
+      <h3>Soluciones en Desarollo Web.</h3>
+      </div>
   </div>
   <br>
   <br>
@@ -66,9 +65,9 @@
 </template>
 
 <script>
-import CaruSel from "./CaruSel.vue";
+import AppName from './AppName.vue'
 export default {
-  components: { CaruSel },
+  components: { AppName },
 };
 </script>
 
