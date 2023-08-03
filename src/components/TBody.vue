@@ -32,7 +32,7 @@
         <h1>
           <app-name/>
         </h1>
-      <h3>Soluciones en Desarollo Web.</h3>
+      <h3>Soluciones en Desarrollo Web.</h3>
       </div>
   </div>
   <br>
