@@ -1,5 +1,5 @@
 <template>
-        <div class="app-name"><b>Rosso</b> Hack</div>
+        <div class="app-name"><b>RET</b> Hack</div>
 </template>
 
 

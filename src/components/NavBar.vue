@@ -4,9 +4,8 @@
         <app-name/>
     </router-link>
     <router-link class="app-link" to="/about">Acerca de Nosotros</router-link>
-    <router-link class="app-link" to="/customers">Nuestros Clientes</router-link>
-
     <router-link class="app-link" to="/services">Servicios</router-link>
+    <router-link class="app-link" to="/customers">Nuestros Clientes</router-link>
 
     <a
       href="javascript:void(0);"
