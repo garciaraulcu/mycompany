@@ -1,21 +1,24 @@
 <template>
   <div class="topnav" id="myTopnav">
-    <a href="#home" class="active app-name" v-on:click="home()"><b>Red</b> Hack</a>
-    <a href="#about" v-on:click="about();myFunctionTab()">Aerca de Nosotros</a>
-    <a href="#contact">Contacto</a>
+    <router-link class="app-link active app-name" to="/"
+      ><b>Red</b>Hack</router-link
+    >
+    <router-link class="app-link" to="/about">Acerca de Nosotros</router-link>
+    <router-link class="app-link" to="/customers"
+      >Nuestros Clientes</router-link
+    >
+    <router-link class="app-link" to="/services">Servicios</router-link>
     <!--<a href="#customers" v-on:click="myFunctionTab()">Nuestros Clientes</a>-->
 
     <a
       href="javascript:void(0);"
-      class="icon"
+      class="app-link icon"
       style="color: white"
       v-on:click="myFunctionTab()"
     >
       <i class="fa fa-bars"></i>
     </a>
   </div>
-
-
 </template>
 
 <script>
@@ -24,14 +27,6 @@ export default {
     return {};
   },
   methods: {
-    home() {
-      document.getElementById("about").style.display = "none";
-      document.getElementById("home").style.display = "block";
-    },
-    about() {
-      document.getElementById("home").style.display = "none";
-      document.getElementById("about").style.display = "block";
-    },
     myFunctionTab() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
@@ -52,7 +47,7 @@ export default {
   width: 100%;
 }
 
-.topnav a {
+.app-link {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -62,12 +57,12 @@ export default {
   font-size: 17px;
 }
 
-.topnav a:hover {
+.app-link:hover {
   background-color: #555;
   color: #f2f2f2;
 }
 
-.topnav a.active {
+.app-link .active {
   background-color: #01182a;
   color: white;
 }
@@ -77,10 +72,10 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
+  .app-link:not(:first-child) {
     display: none;
   }
-  .topnav a.icon {
+  .app-link.icon {
     float: right;
     display: block;
   }
@@ -95,15 +90,14 @@ export default {
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .topnav.responsive .app-link {
     float: none;
     display: block;
     text-align: left;
   }
 }
 
-.app-name > b{
+.app-name > b {
   color: red;
 }
-
 </style>
