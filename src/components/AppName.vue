@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <div class="app-name"><b>Red</b> Hack</div>
-    </div>
+        <div class="app-name"><b>Rosso</b> Hack</div>
 </template>
+
+
 
 <style scoped>
 .app-name > b{

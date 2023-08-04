@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <div class="container p-5">
+      <div class="container p-3">
         <h1>
           <app-name />
         </h1>

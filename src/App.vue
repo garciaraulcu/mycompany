@@ -1,7 +1,7 @@
 <template>
   <div class="transform">
     <nav-bar />
-        <router-view></router-view>
+        <router-view class="bg-view"></router-view>
     <t-footer class="footer"/>
   </div>
 </template>
@@ -27,5 +27,9 @@ transform-origin: 0 0;  /* Standard Property */
 
 .footer{
   bottom: 0;
+}
+.bg-view{
+    background-color: #222;
+    color: #fff;
 }
 </style>

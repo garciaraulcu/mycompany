@@ -1,14 +1,12 @@
 <template>
   <div class="topnav" id="myTopnav">
-    <router-link class="app-link active app-name" to="/"
-      ><b>Red</b>Hack</router-link
-    >
+    <router-link class="app-link active" to="/">
+        <app-name/>
+    </router-link>
     <router-link class="app-link" to="/about">Acerca de Nosotros</router-link>
-    <router-link class="app-link" to="/customers"
-      >Nuestros Clientes</router-link
-    >
+    <router-link class="app-link" to="/customers">Nuestros Clientes</router-link>
+
     <router-link class="app-link" to="/services">Servicios</router-link>
-    <!--<a href="#customers" v-on:click="myFunctionTab()">Nuestros Clientes</a>-->
 
     <a
       href="javascript:void(0);"
@@ -22,7 +20,9 @@
 </template>
 
 <script>
+import AppName from './AppName.vue';
 export default {
+  components: { AppName },
   data() {
     return {};
   },
@@ -62,7 +62,7 @@ export default {
   color: #f2f2f2;
 }
 
-.app-link .active {
+.active {
   background-color: #01182a;
   color: white;
 }
@@ -95,9 +95,5 @@ export default {
     display: block;
     text-align: left;
   }
-}
-
-.app-name > b {
-  color: red;
 }
 </style>
