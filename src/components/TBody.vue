@@ -5,16 +5,20 @@
         <h1>
           <app-name />
         </h1>
-        <h3>Soluciones en Desarrollo Web.</h3>
+        <h4>Diseño y Desarrollo Web.</h4>
       </div>
     </div>
+    <br>
+    <caru-sel/>
+    <br>
   </div>
 </template>
 
 <script>
 import AppName from "./AppName.vue";
+import CaruSel from './CaruSel.vue';
 export default {
-  components: { AppName },
+  components: { AppName, CaruSel },
 };
 </script>
 

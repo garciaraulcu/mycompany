@@ -11,84 +11,27 @@
 
       <!-- The slideshow -->
       <div class="carousel-inner">
+
         <div class="carousel-item active">
           <img
+            src="../assets/web_desing2.png"
+            alt="L'Internazzionale"
+            width="1100"
+            height="500"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
             src="../assets/responsive.png"
-            alt="Los Angeles"
-            width="1100"
-            height="500"
-          />
-        </div>
-
-        <div class="carousel-item">
-          <img
-            src="../assets/bus-page.png"
-            alt="New York"
+            alt="Cap Wash"
             width="1100"
             height="500"
           />
         </div>
         <div class="carousel-item">
           <img
-            src="../assets/hotel-page.png"
-            alt="New York"
-            width="1100"
-            height="500"
-          />
-        </div>
-                <div class="carousel-item">
-          <img
-            src="../assets/travel-page.png"
-            alt="New York"
-            width="1100"
-            height="500"
-          />
-        </div>
-                <div class="carousel-item">
-          <img
-            src="../assets/rent-page.png"
-            alt="New York"
-            width="1100"
-            height="500"
-          />
-        </div>
-
-                <div class="carousel-item">
-          <img
-            src="../assets/social-page.png"
-            alt="New York"
-            width="1100"
-            height="500"
-          />
-        </div>
-                <div class="carousel-item">
-          <img
-            src="../assets/cv-page.png"
-            alt="New York"
-            width="1100"
-            height="500"
-          />
-        </div>
-                <div class="carousel-item">
-          <img
-            src="../assets/portafolio-page.png"
-            alt="New York"
-            width="1100"
-            height="500"
-          />
-        </div>
-                <div class="carousel-item">
-          <img
-            src="../assets/marketing-page.png"
-            alt="New York"
-            width="1100"
-            height="500"
-          />
-        </div>
-                <div class="carousel-item">
-          <img
-            src="../assets/pizza-page.png"
-            alt="New York"
+            src="../assets/web_desing.png"
+            alt=""
             width="1100"
             height="500"
           />

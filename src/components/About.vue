@@ -7,16 +7,19 @@
       </div>
       <br>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
-        repellat aut pariatur praesentium voluptates at architecto ex ut, unde
-        eligendi velit optio, vero nemo, aspernatur eius distinctio doloribus ad
-        harum.
+          Nos dedicamos al Diseño y Desarrollo Web, Marketing Digital, Servicios de SEO para el posocionamiento en 
+          google, E-Commerce para sitios de ventas online, Blogs, paginas web informativas y Aplicaciones Web Dinamicas con registro de usuarios e
+          inicio de sesion.
       </p>
+
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-        molestias dolorum doloribus numquam asperiores expedita voluptatem
-        molestiae odio totam natus. Nemo architecto commodi alias! Velit quis
-        sunt modi quisquam labore?
+          Diseñamos Apps mobiles, tenemos certificaciones en Diseño de Apps por el Laboratorio de IOS de la FES Acatlan UNAM.
+      </p>
+
+      <p>
+          Todos los proyectos cuentan un nivel de seguridad Estandar proporcinados por los lenguajes de programacion y Frameworks 
+          que usamos, acompañado de buenas practicas de trabajo para el Desarrollo de Aplicaciones Web.
+
       </p>
     </div>
   </div>
