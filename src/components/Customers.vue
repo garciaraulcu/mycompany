@@ -43,7 +43,7 @@
                     <br>
                         <b>L'Internazzionale</b>
                         <ul>
-                          <li>Aplicacion Web para Votar y de Noticias Internacionales.</li>
+                          <li>Aplicacion Web de Noticias Internacionales.</li>
                           <li>Status: <b>En Linea</b></li>
                         </ul>
                         <a href="https://futfest.000webhostapp.com/" class="btn btn-dark" target="_blank">Visitar</a>
@@ -74,5 +74,12 @@ b,ul,li{
 
 .card-customer{
   padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #666;
 }
 </style>
