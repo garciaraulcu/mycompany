@@ -7,7 +7,8 @@
       </p>
       <br>
       <div class="row container">
-          <div class="col-md-4 card-customer">
+          <div class="col-md-4">
+              <div class="card-customer">
                 <div>
                       <img src="../assets/e_mercado.png" alt="E-mercado" style="width:100%">
                 </div>
@@ -21,7 +22,9 @@
                       <a href="http://e-mercado.rf.gd/galery" class="btn btn-dark" target="_blank">Visitar</a>
                 </div>
           </div>
-              <div class="col-md-4 card-customer">
+          </div>
+          <div class="col-md-4">
+                            <div class="card-customer">
                   <div>
                         <img src="../assets/futfest.png" alt="E-mercado" style="width:100%">
                   </div>
@@ -35,7 +38,9 @@
                         <a href="https://futfest.000webhostapp.com/" class="btn btn-dark" target="_blank">Visitar</a>
                   </div>
               </div>
-              <div class="col-md-4 card-customer">
+          </div>
+          <div class="col-md-4">
+                            <div class="card-customer">
                   <div>
                         <img src="../assets/linternazzionale.png" alt="E-mercado" style="width:100%">
                   </div>
@@ -49,7 +54,9 @@
                         <a href="https://futfest.000webhostapp.com/" class="btn btn-dark" target="_blank">Visitar</a>
                   </div>
               </div>
-              <div class="col-md-4 card-customer">
+          </div>
+          <div class="col-md-4">
+              <div class=" card-customer">
                   <div>
                         <img src="../assets/capwash.png" alt="E-mercado" style="width:100%">
                   </div>
@@ -62,6 +69,7 @@
                         </ul>
                   </div>
               </div>
+          </div>
       </div>
     </div>
   </div>
@@ -76,10 +84,16 @@ b,ul,li{
   padding: 5px 5px 5px 5px;
   border-radius: 10px;
   padding: 10px;
+  border: 1px solid #666;
 }
 
 .btn:hover{
     color: #fff;
     background-color: #666;
 }
+.row > div{
+  padding: 5px;
+}
 </style>
+
+

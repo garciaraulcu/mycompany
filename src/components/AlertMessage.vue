@@ -6,7 +6,7 @@
       </div>
       <p class="container">
         Esta pagina esta en periodo de Mantenimiento hasta nuevo aviso, por
-        locual la informacion no es oficial. Gracias!
+        lo cual la informacion no es oficial. Gracias!
       </p>
     </div>
   </div>
