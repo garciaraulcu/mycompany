@@ -2,6 +2,7 @@ import Body from "./components/TBody.vue";
 import About from "./components/About.vue";
 import Customers from "./components/Customers.vue";
 import Services from "./components/Services.vue";
+import Terminos from "./components/Terminos.vue"
 
 const routes = [
   {
@@ -19,6 +20,10 @@ const routes = [
   {
     path: "/services",
     component: Services,
+  },
+  {
+    path: "/terminos",
+    component: Terminos,
   },
 ];
 

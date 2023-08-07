@@ -11,6 +11,21 @@
     <br>
     <caru-sel/>
     <br>
+    <br>
+    <div class="container">
+        <p>
+            Diseñamos tu Pagina Web, Tienda en Linea, Blog de Noticias, etc.
+        </p>
+        <p>
+          Servicio SEO
+        </p>
+        <p>
+          Marketing Digital
+        </p>
+        <p>
+            Diseñamos Apps mobiles
+        </p>
+    </div>
   </div>
 </template>
 
