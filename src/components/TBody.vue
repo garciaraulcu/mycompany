@@ -26,6 +26,8 @@
             Diseñamos Apps mobiles
         </p>
     </div>
+    <br>
+    <br>
   </div>
 </template>
 
