@@ -2,7 +2,7 @@
   <div>
     <div class="bg-warning p-2" id="close">
       <div class="text-right">
-                <button class="btn" v-on:click="closeAlertMsg"><b> Close </b></button>
+                <button class="btn" v-on:click="closeAlertMsg"><b> x </b></button>
       </div>
       <p class="container">
         Esta pagina esta en periodo de Mantenimiento hasta nuevo aviso, por
