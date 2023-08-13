@@ -67,6 +67,8 @@
                           <li>Tienda Online de Gorras</li>
                           <li>Status: <b>En Desarrollo</b></li>
                         </ul>
+                        <a href="https://capwashdemo.000webhostapp.com/" class="btn btn-dark" target="_blank">Visitar</a>
+
                   </div>
               </div>
           </div>
