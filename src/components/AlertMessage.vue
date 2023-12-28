@@ -9,8 +9,15 @@
                 </button>
       </div>
       <p class="container">
-        Esta pagina esta en periodo de Mantenimiento hasta nuevo aviso, por
-        lo cual la informacion no es oficial. Gracias!
+        Esta pagina esta en periodo de constantes cambios y Mantenimiento hasta nuevo aviso! Gracias.
+      </p>
+
+    </div>
+
+    <div class="bg-danger p-2">
+      <br>
+      <p class="text-white container">
+        <b>Buen Fin! | 30% OFF - Vigenica: 06 de Enero del 2024.</b>
       </p>
     </div>
   </div>
@@ -36,4 +43,5 @@ export default {
 p{
   text-align: justify;
 }
+
 </style>
