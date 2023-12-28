@@ -5,6 +5,8 @@
         
 
         <router-view class="bg-view"></router-view>
+    <whats-app-button/>
+      
     <t-footer class="footer"/>
   </div>
 </template>
@@ -13,13 +15,15 @@
 import NavBar from "./components/NavBar.vue";
 import TFooter from "./T-Footer.vue";
 import AlertMessage from './components/AlertMessage.vue'
+import WhatsAppButton from './components/WhatsAppButton.vue'
 
 export default {
   name: "App",
   components: {
     NavBar,
     TFooter,
-    AlertMessage
+    AlertMessage,
+    WhatsAppButton,
   },
 };
 </script>
