@@ -5,7 +5,7 @@
     <div class="">
       <div class="container">
         <div class="row">
-          <div class="col-md-2 p-4">
+          <div class="col-md-3 p-4">
             <router-link to="/terminos" class="text-white">Terminos y Condiciones</router-link>
             <br>
             
