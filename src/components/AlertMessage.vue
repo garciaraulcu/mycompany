@@ -17,7 +17,7 @@
     <div class="bg-danger p-2">
       <br>
       <p class="text-white container">
-        <b>Buen Fin! | 30% OFF - Vigenica: 06 de Enero del 2024.</b>
+        <b>Buen Fin! | 30% OFF - Vigencia hasta: 06 de Enero del 2024.</b>
       </p>
     </div>
   </div>
