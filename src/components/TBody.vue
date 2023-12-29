@@ -5,7 +5,7 @@
         <h1>
           <app-name />
         </h1>
-        <h4>Diseño y Desarrollo Web.</h4>
+        <h4>Servicios en Diseño y Desarrollo Web.</h4>
       </div>
     </div>
     <br>
