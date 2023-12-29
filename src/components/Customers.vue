@@ -10,16 +10,16 @@
           <div class="col-md-4">
               <div class="card-customer">
                 <div>
-                      <img src="../assets/e_mercado.png" alt="E-mercado" style="width:100%">
+                      <img src="../assets/acashop.png" alt="E-mercado" style="width:100%">
                 </div>
                 <div>
                   <br>
-                      <b>E-mercado</b>
+                      <b>AcaShop</b>
                       <ul>
-                        <li>Tienda de Productos Digitales</li>
+                        <li>Tienda Online</li>
                         <li>Status: <b>En Linea</b></li>
                       </ul>
-                      <a href="http://e-mercado.rf.gd/galery" class="btn btn-dark" target="_blank">Visitar</a>
+                      <a href="http://acashop.rf.gd" class="btn btn-dark" target="_blank">Visitar</a>
                 </div>
           </div>
           </div>
@@ -33,7 +33,7 @@
                         <b>FUT FEST</b>
                         <ul>
                           <li>Aplicacion Web para Torneos de Futbol Soccer.</li>
-                          <li>Status: <b>En Linea</b></li>
+                          <li>Status: <b>Suspendido Temporalmente</b></li>
                         </ul>
                         <a href="https://futfest.000webhostapp.com/" class="btn btn-dark" target="_blank">Visitar</a>
                   </div>
@@ -51,7 +51,7 @@
                           <li>Aplicacion Web de Noticias Internacionales.</li>
                           <li>Status: <b>En Linea</b></li>
                         </ul>
-                        <a href="https://futfest.000webhostapp.com/" class="btn btn-dark" target="_blank">Visitar</a>
+                        <a href="https://linternazzionale.000webhostapp.com/" class="btn btn-dark" target="_blank">Visitar</a>
                   </div>
               </div>
           </div>
