@@ -10,7 +10,7 @@
             <small>Valido hasta: {{ getDateForHumans() }} </small>
           </p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
               <b class="text-white">OFERTA POR TIEMPO LIMITADO</b>
 
           <div class="text-white size">
@@ -61,7 +61,7 @@ export default {
         const minutes = this.duration.minutes();
         const seconds = this.duration.seconds();
 
-        this.countdown = `${days}d ${hours}h : ${minutes}m : ${seconds}s`;
+        this.countdown = `${this.twoDigits(days)}d : ${this.twoDigits(hours)}h : ${this.twoDigits(minutes)}m : ${this.twoDigits(seconds)}s`;
 
         this.duration <= 0 ? this.hidePromo() : this.countdown;
       }, 1000);
@@ -75,6 +75,9 @@ export default {
     },
     hidePromo() {
       document.getElementById("promo").style.display = "none";
+    },
+    twoDigits(value) {
+      return value < 10 ? `0${value}` : value;
     },
   },
 };
